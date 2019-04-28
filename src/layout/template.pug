@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        block title
+        meta(content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport")
+        meta(content="yes" name="apple-mobile-web-app-capable")
+        meta(content="black" name="apple-mobile-web-app-status-bar-style")
+        meta(content="telephone=no" name="format-detection")
+        meta(content="email=no" name="format-detection")
+        block description
+        block keywords
+        link(rel="stylesheet" href="../../css/main.css")
+        block styleLink
+        script(type="text/javascript" src="../../lib/js/jquery.min.js")
+        block scriptLink
+        script(type="text/javascript" src="../../main.js")
+        script(type='text/javascript').
+            ;(function(win, doc) {
+                function change() {
+                    doc.documentElement.style.fontSize = 16 * doc.documentElement.clientWidth / 375 + 'px';
+                }
+                change();
+                win.addEventListener('resize', function() {
+                    change();
+                }, false);
+            })(window, document);
+    body
+        block container

@@ -1,0 +1,51 @@
+{
+  "name": "XRSJ",
+  "Version": "1.1.2",
+  "description": "",
+  "author": "Zyx",
+  "license": "ISC",
+  "scripts": {
+    "dev": "gulp ds",
+    "watch": "gulp watch",
+    "build": "gulp p"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.7",
+    "chalk": "^2.4.0",
+    "del": "^3.0.0",
+    "fancy-log": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^3.6.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-fez-tinypic": "^1.0.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss-lint": "^0.5.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "node-notifier": "^5.1.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "through2": "^2.0.3",
+    "tinify": "^1.5.0"
+  }
+}

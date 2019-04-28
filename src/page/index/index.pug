@@ -1,0 +1,29 @@
+extends ../../layout/template.pug
+block title
+    title 申请扣除信息填写
+block styleLink
+    link(rel="stylesheet", href="../../css/swiper.min.css")
+    link(rel="stylesheet", href="../../css/select.css")
+block scriptLink
+    script(type="text/javascript" src="../../lib/js/address.js")
+    script(type="text/javascript" src="../../lib/js/swiper.min.js")
+    script(type="text/javascript" src="../../lib/js/select.js")
+    style.
+        a { color: #ccc;}
+block container
+    a(href="javascript:;" class="select-highlight select-address" title="请选择通讯地址" value="210000,210400,210411").select-address 请选择
+    br
+    br
+    div.select-option
+        select
+            option(value="0") 请选择
+            option(value="1") 1000
+            option(value="2" selected) 2000
+            option(value="3") 3000
+            option(value="4") 4000
+    br
+    br
+    input(type="text" placeholder="请选择" readonly value="2010-03-29").select-date
+    br
+    br
+    input(type="text" placeholder="请选择" readonly value="2020-02-29").select-date

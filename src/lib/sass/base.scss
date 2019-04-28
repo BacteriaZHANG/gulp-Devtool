@@ -1,0 +1,39 @@
+@import 'variable';
+
+body, html {
+  line-height: 1;
+  font-family: 'Microsoft YaHei', 'SimSun', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  -webkit-tap-highlight-color: transparent;
+  background: #fff;
+  color: $color-text;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+html { position: relative;}
+
+* { box-sizing: border-box; }
+
+// 所有输入框 placeholder 颜色
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #c1c0c0;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+color: #c1c0c0;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+color: #c1c0c0;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #c1c0c0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input { outline: none; background-color: transparent;}

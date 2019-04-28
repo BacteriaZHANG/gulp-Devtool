@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/*
+* @Author: 张焱鑫
+* @Date:   2017-09-04 09:27:55
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2017-10-31 13:02:33
+*/
+/* 公共样式 */
+/*
+* @Author: 张焱鑫
+* @Date:   2017-10-27 14:31:23
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-12-29 14:12:58
+*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* custom */
+a {
+  color: #7e8c8d;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent; }
+
+body, html {
+  line-height: 1;
+  font-family: 'Microsoft YaHei', 'SimSun', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  -webkit-tap-highlight-color: transparent;
+  background: #fff;
+  color: #000;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden; }
+
+html {
+  position: relative; }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #c1c0c0; }
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #c1c0c0; }
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #c1c0c0; }
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #c1c0c0; }
+
+input[type="radio"], input[type="checkbox"] {
+  display: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+input {
+  outline: none;
+  background-color: transparent; }
+
+/*
+* @Author: 张焱鑫
+* @Date:   2018-01-18 14:38:00
+* @Last Modified by:   张焱鑫
+* @Last Modified time: 2018-03-23 15:18:29
+*/
+
+/*# sourceMappingURL=maps/main.css.map */

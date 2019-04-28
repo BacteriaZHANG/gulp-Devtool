@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>申请扣除信息填写</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/swiper.min.css">
+    <link rel="stylesheet" href="../../css/select.css">
+    <script type="text/javascript" src="../../lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/address.js"></script>
+    <script type="text/javascript" src="../../lib/js/swiper.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/select.js"></script>
+    <style>a { color: #ccc;}</style>
+    <script type="text/javascript" src="../../main.js"></script>
+    <script type="text/javascript">
+        ;
+        (function(win, doc) {
+            function change() {
+                doc.documentElement.style.fontSize = 16 * doc.documentElement.clientWidth / 375 + 'px';
+            }
+            change();
+            win.addEventListener('resize', function() {
+                change();
+            }, false);
+        })(window, document);
+    </script>
+</head>
+
+<body><a class="select-highlight select-address select-address" href="javascript:;" title="请选择通讯地址" value="210000,210400,210411">请选择</a><br><br>
+    <div class="select-option"><select>
+            <option value="0">请选择</option>
+            <option value="1">1000</option>
+            <option value="2" selected>2000</option>
+            <option value="3">3000</option>
+            <option value="4">4000</option>
+        </select></div><br><br><input class="select-date" type="text" placeholder="请选择" readonly value="2010-03-29"><br><br><input class="select-date" type="text" placeholder="请选择" readonly value="2020-02-29">
+</body>
+
+</html>
